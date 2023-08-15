@@ -19,3 +19,9 @@ ElasticSearch
 
 ## Testing
 
+
+API for creating event
+
+
+API for querying on event
+
