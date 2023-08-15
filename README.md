@@ -42,7 +42,8 @@ Below is the curl to create an event, here data field(JSON) corresponds to event
 
 Below is a Sample curl to create an event.
 
-```curl --location 'http://localhost:8080/event' \
+```
+curl --location 'http://localhost:8080/event' \
 --header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIxODIxMDd9.la6KCY__xjgGtAZQkfh_OXVEG0zSvjIQeNy1JpcpZ28' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -53,7 +54,8 @@ Below is a Sample curl to create an event.
              "weight": 68,
              "occupation" : "painter"
          }
-}'```
+}'
+```
 
 API for querying on event
 
