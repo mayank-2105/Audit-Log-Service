@@ -58,7 +58,7 @@ curl --location 'http://localhost:8080/event' \
 }'
 ```
 
-<img width="1067" alt="Screenshot 2023-08-16 at 12 19 08 AM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/84d3cc76-0368-48a6-906f-7fc7610e133d">
+<img width="1063" alt="Screenshot 2023-08-16 at 12 30 39 AM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/f2435c39-2f51-4c02-8575-351c5f44bc43">
 
 Here is another example you can use with different data.
 
