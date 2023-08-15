@@ -7,6 +7,12 @@ ElasticSearch
 
 ## Setup
 
+```
+git status
+git add
+git commit
+```
+
 ```go mod init audit-log-service
 go mod tidy```
 3. go get github.com/dgrijalva/jwt-go
