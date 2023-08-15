@@ -1,4 +1,4 @@
 audit-log-service
-*.mod
-*.sum
+go.mod
+go.sum
 *.env
