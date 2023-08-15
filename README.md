@@ -34,6 +34,8 @@ Below is the cURL for login API
 
 ```curl --location --request POST 'http://localhost:8080/login'```
 
+![Uploading Screenshot 2023-08-15 at 11.15.58 PM.png…]()
+
 API for creating event
 
 
