@@ -80,3 +80,26 @@ curl --location 'http://localhost:8080/event' \
 
 ### API for querying on event
 
+Query for all the events
+
+```
+curl --location 'http://localhost:8080/query' \
+--header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIxODIxMDd9.la6KCY__xjgGtAZQkfh_OXVEG0zSvjIQeNy1JpcpZ28' \
+--data ''
+```
+
+Query for common event data
+
+```
+curl --location 'http://localhost:8080/query?action=account_deleted' \
+--header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIxODIxMDd9.la6KCY__xjgGtAZQkfh_OXVEG0zSvjIQeNy1JpcpZ28' \
+--data ''
+```
+
+Query for specific event data
+
+```
+curl --location 'http://localhost:8080/query?data.age=44' \
+--header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIxODIxMDd9.la6KCY__xjgGtAZQkfh_OXVEG0zSvjIQeNy1JpcpZ28' \
+--data ''
+```
