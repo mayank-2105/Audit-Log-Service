@@ -58,5 +58,7 @@ curl --location 'http://localhost:8080/event' \
 }'
 ```
 
+<img width="1067" alt="Screenshot 2023-08-16 at 12 19 08 AM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/84d3cc76-0368-48a6-906f-7fc7610e133d">
+
 API for querying on event
 
