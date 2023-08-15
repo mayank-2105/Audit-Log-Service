@@ -2,25 +2,25 @@
 
 ## Dependencies
 
-* Go 
-* ElasticSearch
+* Go - https://go.dev/doc/install
+* ElasticSearch - https://www.elastic.co/downloads/elasticsearch
+
+cd into the extracted elasticsearch directory
+
+Run 
+
+`./bin/elasticsearch -E xpack.security.enabled=false`
 
 ## Setup
 
 ```
-git status
-git add
-git commit
-
-
 1. go mod init audit-log-service
 2. go mod tidy
 3. go get github.com/dgrijalva/jwt-go
 4. go get "github.com/gorilla/mux"
-5. go get "github.com/olivere/elastic/v7"
-6. ./bin/elasticsearch -E xpack.security.enabled=false
-7. go build .
-8. ./audit-log-service
+5. go get "github.com/olivere/elastic/v7" 
+6. go build .
+7. ./audit-log-service
 ```
    
 
