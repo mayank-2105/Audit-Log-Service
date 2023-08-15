@@ -101,7 +101,7 @@ curl --location 'http://localhost:8080/query?data.age=44' \
 ```
 
 
-##Here are some of the screenshots for all these APIs when tested on Postman
+## Here are some of the screenshots for all these APIs when tested on Postman
 
 <img width="1063" alt="Screenshot 2023-08-16 at 12 30 39 AM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/f2435c39-2f51-4c02-8575-351c5f44bc43">
 
