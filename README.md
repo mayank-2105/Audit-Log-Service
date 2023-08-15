@@ -36,7 +36,7 @@ Below is the cURL for login API
 
 <img width="1060" alt="Screenshot 2023-08-15 at 11 15 58 PM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/82372fae-ab3c-4f66-94f9-2c4ea8a57b8e">
 
-API for creating event
+### API for creating event
 
 Below is the curl to create an event, here data field(JSON) corresponds to event specific data and can vary across events.
 
@@ -60,5 +60,23 @@ curl --location 'http://localhost:8080/event' \
 
 <img width="1067" alt="Screenshot 2023-08-16 at 12 19 08 AM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/84d3cc76-0368-48a6-906f-7fc7610e133d">
 
-API for querying on event
+Here is another example you can use with different data.
+
+```
+curl --location 'http://localhost:8080/event' \
+--header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIxODIxMDd9.la6KCY__xjgGtAZQkfh_OXVEG0zSvjIQeNy1JpcpZ28' \
+--header 'Content-Type: application/json' \
+--data '{
+         "type": "ERROR",
+         "action": "account_deleted",
+         "data": {
+             "msg": "user does not exist",
+             "maxretry": 3
+         }
+}'
+```
+<img width="1063" alt="Screenshot 2023-08-16 at 12 28 24 AM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/0cf9249c-ad58-4ab2-8efe-34114d6be7ee">
+
+
+### API for querying on event
 
