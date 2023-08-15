@@ -13,6 +13,8 @@ cd into the extracted elasticsearch directory
 
 ## Setup
 
+**Before the setup make sure ElasticSearch server is up and running as mentioned in the Dependencies section**
+
 Clone this repo and inside it run,
 
 ```
