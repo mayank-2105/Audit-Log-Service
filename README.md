@@ -38,6 +38,22 @@ Below is the cURL for login API
 
 API for creating event
 
+Below is the curl to create an event, here data field(JSON) corresponds to event specific data and can vary across events.
+
+Below is a Sample curl to create an event.
+
+```curl --location 'http://localhost:8080/event' \
+--header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIxODIxMDd9.la6KCY__xjgGtAZQkfh_OXVEG0zSvjIQeNy1JpcpZ28' \
+--header 'Content-Type: application/json' \
+--data '{
+         "type": "INFO",
+         "action": "account_created",
+         "data": {
+             "age": 46,
+             "weight": 68,
+             "occupation" : "painter"
+         }
+}'```
 
 API for querying on event
 
