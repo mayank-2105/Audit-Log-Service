@@ -7,7 +7,7 @@
 
 cd into the extracted elasticsearch directory
 
-** Important- To make sure, elasticsearch server is running, run. Without this step you won't be able to run the go http server**
+**Important- To make sure, elasticsearch server is running, run. Without this step you won't be able to run the go http server**
 
 `./bin/elasticsearch -E xpack.security.enabled=false`
 
