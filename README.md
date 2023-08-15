@@ -2,8 +2,8 @@
 
 ## Dependencies
 
-Go 
-ElasticSearch
+* Go 
+* ElasticSearch
 
 ## Setup
 
