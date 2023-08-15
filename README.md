@@ -26,9 +26,9 @@ git commit
 
 ## Testing
 
-API for login
+###API for login
 
-You first need to call the /login API which will return the authentication token which is valid for 24 hours.
+-You first need to call the /login API which will return the authentication token which is valid for 24 hours.
 
 Below is the cURL for login API
 
