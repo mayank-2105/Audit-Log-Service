@@ -42,7 +42,6 @@ Below is the curl to create an event, here data field(JSON) corresponds to event
 
 **Make sure to replace with the correct auth token you receive after calling login API**
 
-Below is a Sample curl to create an event.
 
 ```
 curl --location 'http://localhost:8080/event' \
