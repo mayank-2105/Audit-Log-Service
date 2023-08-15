@@ -13,7 +13,14 @@ cd into the extracted elasticsearch directory
 
 ## Setup
 
-Clone this repo and inside it run the following commands
+Clone this repo and inside it run,
+
+```
+chmod +x build.sh
+./build.sh
+```
+
+Or alternatively, you can run all these commands one by one
 
 ```
 go mod init audit-log-service
