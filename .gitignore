@@ -1,0 +1,4 @@
+audit-log-service
+*.mod
+*.sum
+*.env
