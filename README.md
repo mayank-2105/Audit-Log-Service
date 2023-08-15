@@ -11,7 +11,7 @@ ElasticSearch
 git status
 git add
 git commit
-```
+
 
 1. go mod init audit-log-service
 2. go mod tidy
@@ -21,6 +21,7 @@ git commit
 6. ./bin/elasticsearch -E xpack.security.enabled=false
 7. go build .
 8. ./audit-log-service
+```
    
 
 ## Testing
