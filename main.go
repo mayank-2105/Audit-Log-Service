@@ -14,7 +14,7 @@ import (
 // Event represents an audit log event. There are some common fields like ID, Timestamp
 type Event struct {
 	ID        string                 `json:"id"` // this will serve as a unique identifier for the event
-	Timestamp time.Time              `json:"timestamp"` //timestamp of the event
+	Timestamp time.Time              `json:"timestamp"` //timestamp of the event, I set this to time.Now by default whenever a request is received
 	Type      string                 `json:"type"` //type will basically correspond to log level like ERROR, DEBUG or INFO 
 	Action    string                 `json:"action"` //this will correspond to actions like account_deleted, account_created etc
 	Identity  string                 `json:"identity"` // this specifies the identity of the user which performed the action
@@ -77,7 +77,10 @@ func storeEvent(event Event) error {
 	return err
 }
 
-/* This func is mainly used as an event handler, It is 
+/* Note- For simplicity, I have not placed a strict validation check on the request based on field values
+, however we may need this in real world.
+ 
+This func is mainly used as an event handler, It is 
 mainly called whenever a user makes a POST request to /event
 in order to basically log an event
 It creates a new event ID based on current timestamp 
@@ -102,7 +105,10 @@ func handleEvent(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusCreated)
 }
 
-/* This function is used when we want to query both common and event specific data. 
+/*Note- For simplicity, I have not placed a strict validation check on the request based on field values
+, however we may need this in real world.
+
+This function is used when we want to query both common and event specific data. 
 It extracts the query params from request URL and then queries on the esClient based on them" 
 Finally it results all the events which match the query params*/
 func handleQuery(w http.ResponseWriter, r *http.Request) {
