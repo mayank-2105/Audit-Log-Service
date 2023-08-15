@@ -18,11 +18,11 @@ Clone this repo and inside it run the following commands
 ```
 go mod init audit-log-service
 go mod tidy
-3. go get github.com/dgrijalva/jwt-go
-4. go get "github.com/gorilla/mux"
-5. go get "github.com/olivere/elastic/v7" 
-6. go build .
-7. ./audit-log-service
+go get github.com/dgrijalva/jwt-go
+go get "github.com/gorilla/mux"
+go get "github.com/olivere/elastic/v7" 
+go build .
+./audit-log-service
 ```
    
 
