@@ -13,8 +13,8 @@ git add
 git commit
 ```
 
-```go mod init audit-log-service
-go mod tidy```
+1. go mod init audit-log-service
+2. go mod tidy
 3. go get github.com/dgrijalva/jwt-go
 4. go get "github.com/gorilla/mux"
 5. go get "github.com/olivere/elastic/v7"
