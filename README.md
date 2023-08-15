@@ -13,6 +13,8 @@ Run
 
 ## Setup
 
+Clone this repo and inside it run the following commands
+
 ```
 1. go mod init audit-log-service
 2. go mod tidy
