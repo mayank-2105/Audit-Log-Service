@@ -40,6 +40,8 @@ API for creating event
 
 Below is the curl to create an event, here data field(JSON) corresponds to event specific data and can vary across events.
 
+**Make sure to replace with the correct auth token you receive after calling login API**
+
 Below is a Sample curl to create an event.
 
 ```
