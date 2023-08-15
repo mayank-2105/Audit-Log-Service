@@ -34,7 +34,7 @@ Below is the cURL for login API
 
 ```curl --location --request POST 'http://localhost:8080/login'```
 
-![Uploading Screenshot 2023-08-15 at 11.15.58 PM.png…]()
+<img width="1060" alt="Screenshot 2023-08-15 at 11 15 58 PM" src="https://github.com/mayank-2105/Audit-Log-Service/assets/72939306/82372fae-ab3c-4f66-94f9-2c4ea8a57b8e">
 
 API for creating event
 
